@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Poppins', sans-serif; 
+	margin: 0;
+	padding: 0;
+	border: 0;
+  text-align: center;
+}
+
+/*Mobile*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) { 
+	.navmsg {
+		font-size: 1rem;
+		margin: 10px 0;
+		
+	}
+}
+
+#navbar {
+    background-color:#b62327;
+}
+
+#navbar > p {
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    margin: 10px 0;
+    text-align: center;
+}
+
+#cardbody {
+    border-style: none;
+    background-color:#dbd9d5;
+}
+
+.card-body {
+	border-radius: 0px;
+	border-style: none;
+}
+
+#main-img {
+    width: 70vw;
+    margin: 1% auto -2% auto;
+}
+
+/* ------------------------------------ */
+#portfolio-header {
+	color: #b62327;
+}
+
+#p-img {
+	height: 30vh;
+	width: auto;
+	margin: 10px auto;
+	gap: 10px;
+	overflow-y: hidden;
+}
+
+/*#slides-body {
+    align-items: center;
+	background: #E3E3E3;
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+}
+
+.slider {
+	background: white;
+	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
+	height: 100px;
+	margin: auto;
+	overflow:hidden;
+	position: relative;
+	width: 860px;
+	
+	&::before,
+	&::after {
+		@include white-gradient;
+		content: "";
+		height: 100px;
+		position: absolute;
+		width: 200px;
+		z-index: 2;
+	}
+	
+	&::after {
+		right: 0;
+		top: 0;
+		transform: rotateZ(180deg);
+	}
+
+	&::before {
+		left: 0;
+		top: 0;
+	}
+	
+	.slide-track {
+		animation: scroll $animationSpeed linear infinite;
+		display: flex;
+		width: calc(960px * 14); //changes are done here
+	}
+	
+	.slide {
+		height: 100px;
+		width: 960px; //changes are done here
+	}
+}
+
+/* ---- animation ------ */
+/*@mixin white-gradient {
+	background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+}
+
+$animationSpeed: 40s;
+
+// Animation
+@keyframes scroll {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(calc(-960px * 7))} // changes done here
+}*/

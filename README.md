@@ -5,7 +5,7 @@
 For demo purposes only
 
 ## Feedback
-If you have like to check my portfolios from my previous work, please send me an email at **codingowl898@gmail.com**
+If you would like to see my portfolios from my previous work, please send me an email at **codingowl898@gmail.com**
 
 ## Reference
 Pexels.com, Shields.io, Owl Carousel 2
